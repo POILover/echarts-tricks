@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import AppMain from '../views/AppMain'
+// import AppMain from '../views/AppMain'
+import Layout from '../layout/index'
 Vue.use(VueRouter)
 
 const routes = [{
@@ -9,7 +10,7 @@ const routes = [{
 
 }, {
   path: '/index',
-  component: AppMain
+  component: Layout
 }]
 
 const router = new VueRouter({
